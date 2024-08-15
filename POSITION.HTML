@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            height:100%;
+            display: inline-block;
+        
+        }
+        header{
+            height:80px;
+            background-color: aquamarine;
+            
+        }
+        
+        
+        section{
+            display: inline-block;
+            position:relative;
+            position:relative;
+            left:900px;
+            margin: 10px;
+            
+        }
+        .container-1{
+            display: inline-block;
+            vertical-align: top;
+        }
+        h3{
+            position: absolute;
+            right:15%;
+            top:7%;
+            display: inline-block;
+            font-weight: bolder;
+            font-size:150px;
+           text-shadow: 2px 2px 4px red;
+           animation: blinker 1s ease-in-out infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+        
+        h2{
+            text-shadow: 2px 2px 4px yellow;  
+        }
+        h1{
+            margin-left: 20px;
+            text-shadow: 2px 2px 4px rgb(47, 0, 255); 
+            text-overflow: ellipsis;
+        }
+        span{
+            position: relative;
+            display: inline-block;
+        }
+        h1{
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div>
+        <header>
+            <h1 style="display: inline-block;">10k coders</h1> <section><h2 class="h2">Projects</h2></section><section><h2>About</h2></section><section><h2>Contact</h2></section></div>
+    <div class="container-1">
+        <span> 
+            <img src="https://www.w3schools.com/w3images/architect.jpg" alt="" >
+        <h3>10k coders.com</h3>
+    </span>
+    </div>
+</div>
+</body>
+</html>
